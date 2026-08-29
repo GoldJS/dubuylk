@@ -1,0 +1,48 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string",
+      "default": "Versace"
+    },
+    "category": {
+      "type": "string",
+      "default": "Perfume"
+    },
+    "description": {
+      "type": "string"
+    },
+    "story": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "price_aed": {
+      "type": "number"
+    },
+    "size_ml": {
+      "type": "number"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "in_stock": {
+      "type": "boolean",
+      "default": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "name",
+    "price_aed",
+    "image_url"
+  ]
+}
